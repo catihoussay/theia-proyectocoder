@@ -1,0 +1,207 @@
+/*Selector Universal*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+/*Nav Bar*/
+
+.navegador {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.shop {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.aboutus {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.sale {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.contact {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.buscador {
+    margin-top: 30px;
+}
+.cuenta {
+    margin-top: 30px;
+}
+.logo{
+    margin-top: 15px;
+}
+
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    margin-top: 100px;
+}
+
+/*Headers*/
+h1 {
+    text-align: center;
+    font-size: 40px; 
+    font-weight: 200;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+/*Contenido Index*/
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.flex-item1 {
+    width: 460px;
+}
+
+.flex-item2 {
+    width: 460px;
+}
+
+.flex-item3 {
+    width: 460px;
+}
+
+.flex-item4 {
+    width: 460px;
+}
+
+.grid-shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 20px;
+    column-gap: 20px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.grid-shop > div {
+    padding: 0px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align:justify
+}
+
+.card-subtitle {
+    margin-top: 3px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#estilo-form {
+    margin-left: 30px;
+}
+
+.indicador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 85px;
+    margin-right: 30px;
+    padding-top: 12px;
+    border: black solid;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+}
+
+/*Footer*/
+#estilos-footer {
+    background-color:gainsboro;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.navbar-toggler-icon:active {
+    border: none;
+}
+
+@media screen and (max-width: 991px) {
+
+    .flex-container1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+
+    
+    .flex-item1 {
+        width: 200px;
+
+    }
+    
+    .flex-item2 {
+        width: 200px;
+    }
+    
+    .flex-item3 {
+        width: 200px;
+    }
+    
+    .flex-item4 {
+        width: 200px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px; 
+        font-weight: 200;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .grid-shop {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        column-gap: 20px;
+        justify-content:space-between;
+        margin-left: 10px;
+    }
+    
+    .grid-shop > div {
+        padding: 0px;
+    }
+    
+}
