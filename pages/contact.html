@@ -15,7 +15,7 @@
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: white;">
         <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
             <a class= "logo-nav" href="../index.html"> <img width="160" src="../resources/Logo/theiapng.png" alt="logo-theia"></a></a>
@@ -24,7 +24,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="../pages/shop.html">SHOP</a>
+            <a class="nav-link" aria-current="page" href="../pages/shop.html">SHOP</a>
             <a class="nav-link" href="../pages/aboutus.html">ABOUT US</a>
             <a class="nav-link" href="../pages/sale.html">SALE</a>
             <a class="nav-link" href="#">CONTACT</a>
@@ -33,34 +33,24 @@
         </div>
     </nav>
 
-
-
-<h2>Contactanos.</h2>
-
-<form id= "estilo-form" action="procesar.php" method="get">
-
-        <p>
-        <label for="nombre"> Nombre </label>
-        <input type="text" name="nombre" placeholder="Ingrese su nombre">
-        </p>
+    <div class="containerform container-fluid">
+        <div class="item-form">
+        <p class="darktext1">LET´S GET <br> IN TOUCH</p>
         <br>
-
-        <p>
-            <label for="email"> Mail </label>
-            <input type="email" name="email" placeholder="hola@servidor.com.ar">
-        </p>
-        <br>
-
-        <p>Consulta/mensaje</p>
-
-        <textarea name="mensaje" cols="30" rows="10"></textarea>
-
-        <p>
-        <button type="submit">Enviar</button>
-        <button type="reset">Borrar Formulario</button>
-        </p>
-
-    </form>
+        <p class="darktext2">Feel free to contact us and we will <br>
+        get back to you as soon as we can.</p>
+    </div>
+        <div class="form1 mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form1 mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Leave us a message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    
+        </div>
+    </div>
 
 
 <footer id="estilos-footer">
