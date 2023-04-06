@@ -1,0 +1,76 @@
+/*CONTENIDO SHOP*/
+
+.boton1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid-shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 15px;
+    column-gap: 25px;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.grid-shop > div {
+    padding: 0px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;  
+}
+
+.card-subtitle {
+    margin-top: 3px;
+    font-size: 14px;
+    }
+
+.card-title2 {
+        margin-top: 10px;
+        font-size: 18px; 
+        text-align: center; 
+    }
+    
+.card-subtitle2 {
+        margin-top: 3px;
+        font-size: 14px;
+        text-align: center;
+        }
+
+
+
+
+
+
+/*ANIMACIONES-HOVER*/
+
+.producto1 {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.producto1 img {
+    transition:none;
+}
+
+img.producto1-hover {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.producto1:hover img{
+    opacity: 0;
+}
+
+.producto1:hover img.producto1-hover{
+    opacity: 1;
+}
+

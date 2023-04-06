@@ -1,0 +1,43 @@
+/*index-newsletter*/
+
+.newsletter{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.bodynews{
+    margin-top: 80px;
+}
+
+.image-news{
+    width: 700px;
+    margin-top: 80px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.image-news img {
+    transition:none;
+}
+
+img.image-news-hover {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.image-news:hover img{
+    opacity: 0;
+}
+
+.image-news:hover img.image-news-hover{
+    opacity: 1;
+}
+

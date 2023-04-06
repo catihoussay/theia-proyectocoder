@@ -1,0 +1,133 @@
+/*BLOQUES ABOUT US PAGE*/
+
+.bloque01 {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.body01 {
+    font-size: 16px;    
+}
+
+/*IMAGENES CON HOVER-ABOUTUS*/
+
+.frame1 {
+    width: 500px;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.frame1 img {
+    transition: all linear 0.7s;
+}
+
+img.img-hover {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.frame1:hover img {
+    opacity: 0;
+}
+
+.frame1:hover img.img-hover {
+    opacity:1;
+}
+
+
+.bloque02{
+    align-content: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.body02{
+    text-align: left;
+    margin-right: 70px;
+    margin-top: 130px;
+    margin-left: 15px;
+}
+.frame2 {
+    width: 500px;
+    margin-top:50px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.frame2 img {
+    transition: all linear 0.7s;
+}
+
+img.img-hover2 {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.frame2:hover img {
+    opacity: 0;
+}
+
+.frame2:hover img.img-hover2 {
+    opacity:1;
+}
+
+.bloque03{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.body03 {
+    font-size: 16px;
+    margin-top: 160px;   
+}
+.frame3{
+    width: 500px;
+    margin-top:50px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.frame3 img {
+    transition: all linear 0.7s;
+}
+
+img.img-hover3 {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.frame3:hover img {
+    opacity: 0;
+}
+
+.frame3:hover img.img-hover3 {
+    opacity:1;
+}
+
+.video-making{
+    align-content: center;
+    margin-top: 50px;
+    height: 600px;
+}

@@ -1,0 +1,48 @@
+/*NavBar*/
+
+
+.navegador {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.shop {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.aboutus {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.sale {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.contact {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.buscador {
+    margin-top: 30px;
+}
+.cuenta {
+    margin-top: 30px;
+}
+.logo{
+    margin-top: 15px;
+}
+
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: $color-back;
+}
+
+a:hover {
+    text-decoration: underline;
+}
